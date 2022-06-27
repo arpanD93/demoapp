@@ -16,7 +16,7 @@ spec:
         spec:
             containers:
             - name: k8s-demo
-              image: NetACR.azurecr.io/demoapp:latest
+              image: netacr.azurecr.io/arpand93/demoapp:5
               ports:
               - containerPort: 80
             imagePullSecrets:
